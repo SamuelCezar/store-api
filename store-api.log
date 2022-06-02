@@ -1,1 +1,26 @@
 2022-06-02T12:48:18.356Z [store-api] error POST  Name, CPF, Phone, Email e Adress são obrigatórios.
+2022-06-02T18:23:24.893Z [store-api] error POST  Cannot set headers after they are sent to the client
+2022-06-02T18:32:06.282Z [store-api] error POST  Cannot set headers after they are sent to the client
+2022-06-02T18:36:46.970Z [store-api] error POST  Cannot set headers after they are sent to the client
+2022-06-02T19:11:38.864Z [store-api] error POST  Cannot set headers after they are sent to the client
+2022-06-02T19:33:18.484Z [store-api] error GET  ClientService.getClients is not a function
+2022-06-02T20:32:46.827Z [store-api] error GET  invalid input syntax for integer: "function param(name, defaultValue) {
+  var params = this.params || {};
+  var body = this.body || {};
+  var query = this.query || {};
+
+  var args = arguments.length === 1
+    ? 'name'
+    : 'name, default';
+  deprecate('req.param(' + args + '): Use req.params, req.body, or req.query instead');
+
+  if (null != params[name] && params.hasOwnProperty(name)) return params[name];
+  if (null != body[name]) return body[name];
+  if (null != query[name]) return query[name];
+
+  return defaultValue;
+}"
+2022-06-02T21:14:59.349Z [store-api] error GET  invalid input syntax for integer: ""1""
+2022-06-02T21:17:00.220Z [store-api] error GET  invalid input syntax for integer: "l"
+2022-06-02T21:17:19.606Z [store-api] error GET  invalid input syntax for integer: " "
+2022-06-02T21:17:40.518Z [store-api] error GET  invalid input syntax for integer: "saa"
